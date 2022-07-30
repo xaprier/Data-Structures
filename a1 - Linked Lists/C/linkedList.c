@@ -2,6 +2,17 @@
 // for malloc(memory allocation)
 #include <stdlib.h>
 
+/*
+How a linked list works
+I have created a linked list in code like as below
+          root
+            |
+            |
+        +-----+-----+      +-----+-----+                 +-----+------+
+        | 10 | next -----> | 20 | next -----> ... -----> | 100 | NULL |
+        +-----+-----+      +-----+-----+                 +-----+------+
+*/
+
 typedef struct myNode {
     int data;
     struct myNode* next;
