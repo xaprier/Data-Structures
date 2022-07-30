@@ -45,12 +45,15 @@ int main() {
     // i will use for loop for location
     for (int i = 1; iter != NULL; i++) {
         printf("Searching for the value 40 in location %d\n", i);
+
         if (iter->data == 40) {
             location = i;
             break;
         }
+
         iter = iter->next;
     }
+
     if (location != NULL) {
         printf("The value 40 found in %d linked list!\n", location);
     } else {
