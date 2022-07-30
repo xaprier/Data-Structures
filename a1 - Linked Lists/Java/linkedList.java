@@ -14,8 +14,6 @@ class linkedList {
     public static void main(String[] args) {
         // creating the root node with new keyword(memory allocation(create object))
         myNode root = new myNode(10);
-        // assign the 10 value to root node data
-        root.data = 10;
 
         // let's create a 10 node and assign the i*10 value to node->data
         // we will create a iter for travel between nodes and assign the first node
