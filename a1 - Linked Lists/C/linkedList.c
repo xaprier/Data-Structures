@@ -38,7 +38,7 @@ int main() {
     } while (iter != NULL);
 
     // let's find the linked list location which have the data = 40
-    // reassign the value of root to iter
+    // reassign the location of root to iter
     iter = root;
     // create a location variable and assigning NULL(can be different for your algorithm)
     int location = NULL;
